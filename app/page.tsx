@@ -260,12 +260,12 @@ export default function HomePage() {
   return (
     <div className="min-h-screen bg-background">
       {/* Header with Banner */}
-      <header className="relative h-96 bg-gradient-to-br from-red-900 to-yellow-700 overflow-hidden">
+      <header className="relative h-96 bg-gradient-to-br from-rose-600 to-pink-500 overflow-hidden">
         {/* Background Image Placeholder */}
         <div
           className="absolute inset-0 bg-cover bg-center opacity-20"
           style={{
-            backgroundImage: `url('/bannerheader.png')`,
+            backgroundImage: `url('/placeholder.svg?height=400&width=800')`,
           }}
         />
 
@@ -274,7 +274,7 @@ export default function HomePage() {
           {/* Logo Placeholder */}
           <div className="mb-4">
             <img
-              src="/logo.png"
+              src="/placeholder.svg?height=120&width=120"
               alt="Broka Burguer Logo"
               className="w-24 h-24 md:w-32 md:h-32 rounded-full border-4 border-white shadow-lg"
             />
@@ -331,10 +331,11 @@ export default function HomePage() {
           <h2 className="font-serif text-2xl md:text-3xl font-bold text-center mb-2 text-slate-700">Hambúrgueres</h2>
           <p className="text-center text-slate-600 mb-8">Explore nosso cardápio completo</p>
 
-          {/* 2-column grid */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="flex flex-wrap justify-center gap-6">
             {allBurgers.map((item) => (
-              <MenuItemCard key={item.id} item={item} onAddClick={handleItemClick} isOpen={isOpen} />
+              <div key={item.id} className="w-72">
+                <MenuItemCard item={item} onAddClick={handleItemClick} isOpen={isOpen} />
+              </div>
             ))}
           </div>
         </section>
@@ -344,9 +345,11 @@ export default function HomePage() {
           <h2 className="font-serif text-2xl md:text-3xl font-bold text-center mb-2 text-slate-700">Bebidas</h2>
           <p className="text-center text-slate-600 mb-8">Para acompanhar seu hambúrguer</p>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="flex flex-wrap justify-center gap-6">
             {drinks.map((item) => (
-              <MenuItemCard key={item.id} item={item} onAddClick={handleItemClick} isOpen={isOpen} />
+              <div key={item.id} className="w-72">
+                <MenuItemCard item={item} onAddClick={handleItemClick} isOpen={isOpen} />
+              </div>
             ))}
           </div>
         </section>
