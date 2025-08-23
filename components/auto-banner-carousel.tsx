@@ -13,7 +13,7 @@ interface BannerSlide {
 const bannerSlides: BannerSlide[] = [
   {
     id: 1,
-    image: "/placeholder.svg?height=300&width=800",
+    image: "/b1.png",
     title: "Hambúrgueres Artesanais",
     subtitle: "Feitos com ingredientes frescos e muito amor",
   },

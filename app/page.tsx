@@ -119,14 +119,14 @@ const drinks: MenuItem[] = [
     name: "Coca-Cola 350ml",
     description: "Refrigerante gelado",
     price: 5.9,
-    image: "/placeholder.svg?height=200&width=300",
+    image: "/coca350ml.jpeg",
   },
   {
     id: "d2",
-    name: "Suco Natural 400ml",
+    name: "Guaraná 350ml",
     description: "Laranja, limão ou maracujá",
     price: 8.9,
-    image: "/placeholder.svg?height=200&width=300",
+    image: "/guarana350ml.jpg",
   },
   {
     id: "d3",
@@ -260,12 +260,12 @@ export default function HomePage() {
   return (
     <div className="min-h-screen bg-background">
       {/* Header with Banner */}
-      <header className="relative h-96 bg-gradient-to-br from-rose-600 to-pink-500 overflow-hidden">
+      <header className="relative h-96 bg-gradient-to-br from-red-900 to-red-500 overflow-hidden">
         {/* Background Image Placeholder */}
         <div
           className="absolute inset-0 bg-cover bg-center opacity-20"
           style={{
-            backgroundImage: `url('/placeholder.svg?height=400&width=800')`,
+            backgroundImage: `url('/bannerheader.png')`,
           }}
         />
 
@@ -274,7 +274,7 @@ export default function HomePage() {
           {/* Logo Placeholder */}
           <div className="mb-4">
             <img
-              src="/placeholder.svg?height=120&width=120"
+              src="/logo.png"
               alt="Broka Burguer Logo"
               className="w-24 h-24 md:w-32 md:h-32 rounded-full border-4 border-white shadow-lg"
             />
