@@ -263,7 +263,7 @@ export default function HomePage() {
       <header className="relative h-96 bg-gradient-to-br from-red-900 to-red-500 overflow-hidden">
         {/* Background Image Placeholder */}
         <div
-          className="absolute inset-0 bg-cover bg-center opacity-20"
+          className="absolute inset-0 bg-cover bg-center opacity-70"
           style={{
             backgroundImage: `url('/bannerheader.png')`,
           }}
@@ -306,11 +306,11 @@ export default function HomePage() {
 
       {/* Main Content */}
       <main className="container mx-auto px-4 py-8">
-        {/* Featured Banner */}
+        {/* Featured Banner 
         <section className="mb-12">
           <AutoBannerCarousel />
         </section>
-
+          */}
         {/* Featured Items */}
         <section id="menu" className="mb-12">
           <h2 className="font-serif text-2xl md:text-3xl font-bold text-center mb-2 text-slate-700">Destaques</h2>

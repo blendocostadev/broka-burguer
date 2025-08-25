@@ -19,7 +19,7 @@ const bannerSlides: BannerSlide[] = [
   },
   {
     id: 2,
-    image: "/placeholder.svg?height=300&width=800",
+    image: "/B2.png",
     title: "Sabores Únicos",
     subtitle: "Combinações especiais que você só encontra aqui",
   },
@@ -67,7 +67,7 @@ export function AutoBannerCarousel() {
           >
             <img src={slide.image || "/placeholder.svg"} alt={slide.title} className="w-full h-full object-cover" />
             {/* Overlay */}
-            <div className="absolute inset-0 bg-black/40" />
+            <div className="absolute inset-0 bg-black/20" />
             {/* Content */}
             <div className="absolute inset-0 flex items-center justify-center text-center text-white p-6">
               <div>
