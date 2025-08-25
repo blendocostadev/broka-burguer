@@ -42,10 +42,10 @@ interface DeliveryAddress {
 const featuredItems: MenuItem[] = [
   {
     id: "1",
-    name: "Broka Classic",
+    name: "Broka Smash Bacon",
     description: "Hambúrguer artesanal, queijo cheddar, alface, tomate, cebola roxa e molho especial",
     price: 28.9,
-    image: "/placeholder.svg?height=200&width=300",
+    image: "/broka-smash-bacon.png",
     extras: [
       { id: "bacon", name: "Bacon Crocante", price: 5.0 },
       { id: "cheese", name: "Queijo Extra", price: 3.0 },
@@ -57,7 +57,7 @@ const featuredItems: MenuItem[] = [
     name: "Broka BBQ",
     description: "Hambúrguer defumado, queijo provolone, cebola caramelizada e molho barbecue",
     price: 32.9,
-    image: "/placeholder.svg?height=200&width=300",
+    image: "/broka-bbq.png",
     extras: [
       { id: "bacon", name: "Bacon Crocante", price: 5.0 },
       { id: "onion-rings", name: "Anéis de Cebola", price: 6.0 },
@@ -68,7 +68,7 @@ const featuredItems: MenuItem[] = [
     name: "Broka Veggie",
     description: "Hambúrguer de grão-de-bico, queijo vegano, rúcula, tomate seco e pesto",
     price: 26.9,
-    image: "/placeholder.svg?height=200&width=300",
+    image: "/broka-veggie.png",
     extras: [
       { id: "avocado", name: "Abacate", price: 4.0 },
       { id: "sprouts", name: "Brotos", price: 2.0 },
@@ -81,9 +81,9 @@ const allBurgers: MenuItem[] = [
   {
     id: "4",
     name: "Broka Spicy",
-    description: "Hambúrguer apimentado, queijo pepper jack, jalapeños, alface e maionese chipotle",
+    description: "Pão brioche selado na manteiga, Molho especial, um smash burger de carne bovina 80g, alho frito, cebola crispy.",
     price: 30.9,
-    image: "/placeholder.svg?height=200&width=300",
+    image: "/broka-smash-lupi.png",
     extras: [
       { id: "extra-spicy", name: "Extra Pimenta", price: 2.0 },
       { id: "bacon", name: "Bacon Crocante", price: 5.0 },
@@ -91,10 +91,10 @@ const allBurgers: MenuItem[] = [
   },
   {
     id: "5",
-    name: "Broka Duplo",
+    name: "Broka Smash Classic",
     description: "Dois hambúrgueres, queijo cheddar duplo, alface, tomate e molho especial",
     price: 38.9,
-    image: "/placeholder.svg?height=200&width=300",
+    image: "/broka-smash-classic.png",
     extras: [
       { id: "bacon", name: "Bacon Crocante", price: 5.0 },
       { id: "cheese", name: "Queijo Extra", price: 3.0 },
@@ -102,10 +102,10 @@ const allBurgers: MenuItem[] = [
   },
   {
     id: "6",
-    name: "Broka Fish",
+    name: "Broka Ease",
     description: "Filé de peixe empanado, queijo, alface, tomate e molho tártaro",
     price: 29.9,
-    image: "/placeholder.svg?height=200&width=300",
+    image: "/broka-ease.png",
     extras: [
       { id: "lemon", name: "Limão Extra", price: 1.0 },
       { id: "pickles", name: "Picles", price: 2.0 },
