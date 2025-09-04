@@ -165,6 +165,7 @@ const drinks: MenuItem[] = [
     price: 8.9,
     image: "/guarana350ml.jpg",
   },
+  /*
   {
     id: "d3",
     name: "Água Mineral 500ml",
@@ -179,6 +180,7 @@ const drinks: MenuItem[] = [
     price: 12.9,
     image: "/placeholder.svg?height=200&width=300",
   },
+  */
 ]
 
 export default function HomePage() {
