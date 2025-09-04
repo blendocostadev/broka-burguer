@@ -18,7 +18,7 @@ const sourceSans = Source_Sans_Pro({
 
 export const metadata: Metadata = {
   title: "Broka Burguer - Delivery",
-  description: "Hambúrgueres artesanais brasileiros com entrega das 18h à 01h",
+  description: "Hambúrgueres artesanais com entrega das 18h à 01h em Mosqueiro",
 }
 
 export default function RootLayout({

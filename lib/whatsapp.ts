@@ -34,7 +34,7 @@ interface OrderData {
 }
 
 // WhatsApp phone number for the restaurant (replace with actual number)
-const WHATSAPP_PHONE = "5511999999999" // Format: country code + area code + number
+const WHATSAPP_PHONE = "5591984409973" // Format: country code + area code + number
 
 export function formatOrderForWhatsApp(orderData: OrderData): string {
   const { items, address, total, timestamp } = orderData
