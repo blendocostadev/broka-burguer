@@ -254,7 +254,7 @@ export function CheckoutModal({ isOpen, onClose, cartItems, onConfirmOrder }: Ch
           </form>
 
           <p className="text-xs text-slate-500 text-center">
-            Seu pedido será enviado automaticamente para nosso WhatsApp onde você poderá finalizar o pagamento e
+            Você será redirecionado ao nosso Whatsapp para você enviar o pedido e poderá finalizar o pagamento e
             confirmar a entrega
           </p>
         </div>
