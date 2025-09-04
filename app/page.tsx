@@ -47,10 +47,10 @@ const featuredItems: MenuItem[] = [
     price: 38.50,
     image: "/brokao.png",
     extras: [
-      { id: "smash bovino", name: "smash bovino 70g", price: 1.90 },
-      { id: "bacon", name: "Bacon Crocante 40g", price: 0.60 },
-      { id: "cheese", name: "Queijo Extra", price: 0.40 },
-      { id: "egg", name: "Ovo Frito", price: 1.0 },
+      { id: "blend", name: "+ blend bovino 150g", price: 4.10 },
+      { id: "bacon", name: "+ bacon Crocante 40g", price: 0.60 },
+      { id: "cheese", name: "+ fatia de queijo", price: 0.40 },
+      { id: "egg", name: "+ ovo frito", price: 1.0 },
     ],
   },
   {
@@ -60,10 +60,10 @@ const featuredItems: MenuItem[] = [
     price: 25.99,
     image: "/broka-selado.png",
     extras: [
-      { id: "smash bovino", name: "smash bovino 70g", price: 1.90 },
-      { id: "bacon", name: "Bacon Crocante 40g", price: 0.60 },
-      { id: "cheese", name: "Queijo Extra", price: 0.40 },
-      { id: "egg", name: "Ovo Frito", price: 1.0 },
+      { id: "blend", name: "+ blend bovino 150g", price: 4.10 },
+      { id: "bacon", name: "+ bacon crocante 40g", price: 0.60 },
+      { id: "cheese", name: "+ fatia de queijo", price: 0.40 },
+      { id: "egg", name: "+ ovo frito", price: 1.0 },
     ],
   },
   {
@@ -73,10 +73,10 @@ const featuredItems: MenuItem[] = [
     price: 29.99,
     image: "/broka-salada.png",
     extras: [
-      { id: "blend", name: "blend burguer bovino 150g", price: 4.10 },
-      { id: "bacon", name: "Bacon Crocante 40g", price: 0.60 },
-      { id: "cheese", name: "Queijo Extra", price: 0.40 },
-      { id: "egg", name: "Ovo Frito", price: 1.0 },
+      { id: "blend", name: "+ blend bovino 150g", price: 4.10 },
+      { id: "bacon", name: "+ bacon Crocante 40g", price: 0.60 },
+      { id: "cheese", name: "+ fatia de queijo", price: 0.40 },
+      { id: "egg", name: "+ ovo frito", price: 1.0 },
     ],
   },
 ]
@@ -90,10 +90,10 @@ const allBurgers: MenuItem[] = [
     price: 17.99,
     image: "/smash-pips.png",
     extras: [
-     { id: "smash", name: "smash bovino 70g", price: 1.90 },
-      { id: "bacon", name: "Bacon Crocante 40g", price: 0.60 },
-      { id: "cheese", name: "Fatia de Queijo", price: 0.40 },
-      { id: "egg", name: "Ovo Frito", price: 1.0 },
+     { id: "smash", name: "+ smash bovino 70g", price: 1.90 },
+      { id: "bacon", name: "+ bacon crocante 40g", price: 0.60 },
+      { id: "cheese", name: "+ fatia de queijo", price: 0.40 },
+      { id: "egg", name: "+ ovo frito", price: 1.0 },
     ],
   },
   {
@@ -103,10 +103,10 @@ const allBurgers: MenuItem[] = [
     price: 19.50,
     image: "/smash-classico.png",
     extras: [
-      { id: "smash", name: "smash bovino 70g", price: 1.90 },
-      { id: "bacon", name: "Bacon Crocante 40g", price: 0.60 },
-      { id: "cheese", name: "Queijo Extra", price: 0.40 },
-      { id: "egg", name: "Ovo Frito", price: 1.0 },
+      { id: "smash", name: "+ smash bovino 70g", price: 1.90 },
+      { id: "bacon", name: "+ bacon Crocante 40g", price: 0.60 },
+      { id: "cheese", name: "+ fatia de queijo", price: 0.40 },
+      { id: "egg", name: "+ ovo frito", price: 1.0 },
     ],
   },
   {
@@ -116,10 +116,10 @@ const allBurgers: MenuItem[] = [
     price: 14.99,
     image: "/smash-s.png",
     extras: [
-      { id: "smash", name: "Smash bovino 70g", price: 1.90 },
-      { id: "bacon", name: "Bacon Crocante 40g", price: 0.60 },
-      { id: "cheese", name: "Queijo Extra", price: 0.40 },
-      { id: "egg", name: "Ovo Frito", price: 1.0 },
+      { id: "smash", name: "+ smash bovino 70g", price: 1.90 },
+      { id: "bacon", name: "+ bacon crocante 40g", price: 0.60 },
+      { id: "cheese", name: "+ fatia de queijo", price: 0.40 },
+      { id: "egg", name: "+ ovo frito", price: 1.0 },
     ],
   },
   {
@@ -129,10 +129,10 @@ const allBurgers: MenuItem[] = [
     price: 20.50,
     image: "/smash-bacon.png",
     extras: [
-      { id: "smash", name: "Smash bovino 70g", price: 1.90 },
-      { id: "bacon", name: "Bacon Crocante 40g", price: 0.60 },
-      { id: "cheese", name: "Queijo Extra", price: 0.40 },
-      { id: "egg", name: "Ovo Frito", price: 1.0 },
+      { id: "smash", name: "+ smash bovino 70g", price: 1.90 },
+      { id: "bacon", name: "+ bacon crocante 40g", price: 0.60 },
+      { id: "cheese", name: "+ fatia de queijo", price: 0.40 },
+      { id: "egg", name: "+ ovo frito", price: 1.0 },
     ],
   },
   {
@@ -142,10 +142,10 @@ const allBurgers: MenuItem[] = [
     price: 19.99,
     image: "/smash-egg-bacon.png",
     extras: [
-      { id: "smash", name: "Smash bovino 70g", price: 1.90 },
-      { id: "bacon", name: "Bacon Crocante 40g", price: 0.60 },
-      { id: "cheese", name: "Queijo Extra", price: 0.40 },
-      { id: "egg", name: "Ovo Frito", price: 1.0 },
+      { id: "smash", name: "+ smash bovino 70g", price: 1.90 },
+      { id: "bacon", name: "+ bacon crocante 40g", price: 0.60 },
+      { id: "cheese", name: "+ fatia de queijo", price: 0.40 },
+      { id: "egg", name: "+ ovo frito", price: 1.0 },
     ],
   },
 ]
