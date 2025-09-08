@@ -55,10 +55,10 @@ const featuredItems: MenuItem[] = [
   },
   {
     id: "2",
-    name: "Broka Selado",
-    description: "Especial com 30g de queijo assado na chapa, pão selado na manteiga, bacon em cubos, tomate e um blend bovino de 150g",
-    price: 25.99,
-    image: "/broka-selado.png",
+    name: "Broka Turbo",
+    description: "Especial com dois Blends bovino de de 150g cada! Pão selado na manteiga, bacon em cubos, dois blends bovino de 150g cada, duas fatias de queijo derretendo e cebola caramelizada.",
+    price: 39.99,
+    image: "/broka-turbo.png",
     extras: [
       { id: "blend", name: "+ blend bovino 150g", price: 4.10 },
       { id: "bacon", name: "+ bacon crocante 40g", price: 0.60 },
@@ -143,6 +143,19 @@ const allBurgers: MenuItem[] = [
     image: "/smash-egg-bacon.png",
     extras: [
       { id: "smash", name: "+ smash bovino 70g", price: 1.90 },
+      { id: "bacon", name: "+ bacon crocante 40g", price: 0.60 },
+      { id: "cheese", name: "+ fatia de queijo", price: 0.40 },
+      { id: "egg", name: "+ ovo frito", price: 1.0 },
+    ],
+  },
+  {
+    id: "9",
+    name: "Broka Selado",
+    description: "Especial com 30g de queijo assado na chapa, pão selado na manteiga, bacon em cubos, tomate e um blend bovino de 150g",
+    price: 25.99,
+    image: "/broka-selado.png",
+    extras: [
+      { id: "blend", name: "+ blend bovino 150g", price: 4.10 },
       { id: "bacon", name: "+ bacon crocante 40g", price: 0.60 },
       { id: "cheese", name: "+ fatia de queijo", price: 0.40 },
       { id: "egg", name: "+ ovo frito", price: 1.0 },
@@ -354,6 +367,7 @@ export default function HomePage() {
         <section id="menu" className="mb-12">
           <h2 className="font-serif text-2xl md:text-3xl font-bold text-center mb-2 text-slate-700">Destaques</h2>
           <p className="text-center text-slate-600 mb-8">Nossos hambúrgueres mais populares</p>
+          <p className="text-center text-yellow-400 mb-8">Deslise para o lado 👉</p>
 
           {/* Horizontal scroll for featured items */}
           <div className="flex gap-4 overflow-x-auto pb-4 mb-8">
